@@ -7,15 +7,16 @@ import {
   ScrollView,
 } from 'react-native';
 import StudentCard from '../components/StudentCard ';
+import perfil from '../images/foto.jpeg'
 
 const StudentScreen = ({ navigation }) => {
   // Datos del estudiante
   const studentData = {
-    fullName: 'Juan Carlos Pérez González',
+    fullName: 'Sofía Verónica Palacios Lara',
     age: 18,
-    imageUrl: 'https://via.placeholder.com/150x150/4CAF50/FFFFFF?text=JC',
-    carnet: '2025001',
-    section: 'A',
+    imageUrl: perfil,
+    carnet: '20230106',
+    section: '1B',
     year: '3° Año'
   };
 
